@@ -1,0 +1,67 @@
+{
+  "id": "testimonial_slide",
+  "type": "SharedSlice",
+  "name": "TestimonialSlide",
+  "description": "TestimonialSlide",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "TestimonialSlide",
+      "primary": {
+        "review": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Review",
+            "placeholder": "A nice review from your client.",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink"
+          }
+        },
+        "clientName": {
+          "config": {
+            "label": "Client Name",
+            "placeholder": "Xiaberto Xianderson"
+          },
+          "type": "Text"
+        },
+        "clientTitle": {
+          "config": {
+            "label": "Client Title",
+            "placeholder": "Master of the XiAverse"
+          },
+          "type": "Text"
+        },
+        "clientLogo": {
+          "config": {
+            "label": "Client Logo",
+            "constraint": {
+              "width": null,
+              "height": null
+            },
+            "thumbnails": []
+          },
+          "type": "Image"
+        }
+      },
+      "items": {
+        "statTitle": {
+          "config": {
+            "label": "Stat Title",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "statData": {
+          "config": {
+            "label": "statData",
+            "placeholder": "Data"
+          },
+          "type": "Text"
+        }
+      }
+    }
+  ]
+}

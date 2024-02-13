@@ -1,0 +1,19 @@
+{
+  "entry": "server.js",
+  "files": {
+    "5.js": "5.js",
+    "components/nuxt-logo.js": "components/nuxt-logo.js",
+    "components/tutorial.js": "components/tutorial.js",
+    "pages/index.js": "pages/index.js",
+    "pages/slice-simulator.js": "pages/slice-simulator.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "5.js": "5.js.map",
+    "components/nuxt-logo.js": "components/nuxt-logo.js.map",
+    "components/tutorial.js": "components/tutorial.js.map",
+    "pages/index.js": "pages/index.js.map",
+    "pages/slice-simulator.js": "pages/slice-simulator.js.map",
+    "server.js": "server.js.map"
+  }
+}

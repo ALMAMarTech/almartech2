@@ -1,0 +1,408 @@
+{
+  "id": "homepage",
+  "label": "Homepage",
+  "repeatable": false,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "Unique Identifier",
+          "placeholder": "homepage"
+        }
+      },
+      "home_top_title": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "heading1,strong,em",
+          "label": "Home Top Title",
+          "placeholder": "+ Prospectos, Mejor Calificados"
+        }
+      },
+      "home_top_subtitle": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "heading6,strong,em,hyperlink",
+          "allowTargetBlank": true,
+          "label": "Home Top Subtitle",
+          "placeholder": "Transformamos interacción en fidelización"
+        }
+      },
+      "home_top_btn_label": {
+        "type": "Text",
+        "config": {
+          "label": "Home Top Button Label",
+          "placeholder": "Conoce más"
+        }
+      },
+      "home_top_btn_link": {
+        "type": "Select",
+        "config": {
+          "options": [
+            "Numeros",
+            "Crecimiento",
+            "Soluciones",
+            "Partners",
+            "Nosotros",
+            "Testimonios",
+            "Contacto"
+          ],
+          "label": "Home Top Button Link",
+          "placeholder": "Select Section"
+        }
+      },
+      "home_top_desc": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,strong,em,hyperlink",
+          "allowTargetBlank": true,
+          "label": "Home Top Description",
+          "placeholder": "XiA hace muchas cosas muy padres..."
+        }
+      },
+      "home_top_image": {
+        "type": "Image",
+        "config": {
+          "constraint": {},
+          "thumbnails": [],
+          "label": "Home Top Image"
+        }
+      }
+    },
+    "Numeros": {
+      "stats_title": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "heading3,strong,em",
+          "label": "Stats Title",
+          "placeholder": "Tenemos los números"
+        }
+      },
+      "stats_subtitle": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "heading6,strong,em",
+          "label": "Stats Subtitle",
+          "placeholder": "\"Show me the money.\""
+        }
+      },
+      "stats": {
+        "type": "Group",
+        "config": {
+          "fields": {
+            "pre": {
+              "type": "Text",
+              "config": {
+                "label": "Pre",
+                "placeholder": "+ / -"
+              }
+            },
+            "number": {
+              "type": "Number",
+              "config": {
+                "label": "Number",
+                "placeholder": "30"
+              }
+            },
+            "post": {
+              "type": "Text",
+              "config": {
+                "label": "Post",
+                "placeholder": "% / Unidad"
+              }
+            },
+            "color": {
+              "type": "Select",
+              "config": {
+                "options": ["Gold", "Blue", "Aqua"],
+                "label": "Color",
+                "placeholder": "Select color"
+              }
+            },
+            "caption": {
+              "type": "StructuredText",
+              "config": {
+                "multi": "paragraph,strong,em,hyperlink",
+                "allowTargetBlank": true,
+                "label": "Caption",
+                "placeholder": "Descripción del número"
+              }
+            }
+          },
+          "label": "Stats"
+        }
+      }
+    },
+    "Crecimiento": {
+      "growth_big": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,strong,em,hyperlink",
+          "allowTargetBlank": true,
+          "label": "Growth Big",
+          "placeholder": "The main big text about XiA's growth."
+        }
+      },
+      "growth_small": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item",
+          "allowTargetBlank": true,
+          "label": "Growth Small",
+          "placeholder": "The main small text about XiA's growth."
+        }
+      },
+      "growth_image": {
+        "type": "Image",
+        "config": {
+          "constraint": {},
+          "thumbnails": [],
+          "label": "Growth Image"
+        }
+      }
+    },
+    "Solutions": {
+      "solutions_title": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "heading3,strong,em",
+          "label": "Solutions Title",
+          "placeholder": "Soluciones"
+        }
+      },
+      "solutions_subtitle": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "heading6,strong,em",
+          "label": "Solutions Subtitle",
+          "placeholder": "Conoce el XiAverse"
+        }
+      },
+      "solutions_desc": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,strong,em,hyperlink",
+          "allowTargetBlank": true,
+          "label": "Solutions Description",
+          "placeholder": "Cada solución es un mundo"
+        }
+      },
+      "solutions": {
+        "type": "Group",
+        "config": {
+          "fields": {
+            "image": {
+              "type": "Image",
+              "config": {
+                "constraint": {},
+                "thumbnails": [],
+                "label": "Image"
+              }
+            },
+            "name": {
+              "type": "StructuredText",
+              "config": {
+                "multi": "paragraph,strong,em",
+                "label": "Name",
+                "placeholder": "Solution Name"
+              }
+            },
+            "desc": {
+              "type": "StructuredText",
+              "config": {
+                "multi": "paragraph,strong,em,hyperlink",
+                "allowTargetBlank": true,
+                "label": "Description",
+                "placeholder": "Solution description text."
+              }
+            }
+          },
+          "label": "Solutions"
+        }
+      }
+    },
+    "Partners": {
+      "partners_title": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "heading3",
+          "allowTargetBlank": true,
+          "label": "Partners Title",
+          "placeholder": "El barrio nos respalda"
+        }
+      },
+      "partners_desc": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item",
+          "allowTargetBlank": true,
+          "label": "Partners Description",
+          "placeholder": "Some text about our partners."
+        }
+      },
+      "partners": {
+        "type": "Group",
+        "config": {
+          "fields": {
+            "logo": {
+              "type": "Image",
+              "config": {
+                "constraint": {},
+                "thumbnails": [],
+                "label": "Logo"
+              }
+            },
+            "name": {
+              "type": "Text",
+              "config": {
+                "label": "Name",
+                "placeholder": "Partner Name"
+              }
+            },
+            "partner_link": {
+              "type": "Link",
+              "config": {
+                "label": "Partner Link",
+                "select": null,
+                "allowTargetBlank": true
+              }
+            }
+          },
+          "label": "Partners"
+        }
+      }
+    },
+    "About": {
+      "about_title": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "heading3,strong,em",
+          "allowTargetBlank": true,
+          "label": "About Title",
+          "placeholder": "XiA y tu marca son uno mismo"
+        }
+      },
+      "about_desc": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item",
+          "allowTargetBlank": true,
+          "label": "About Description",
+          "placeholder": "Some text about XiA."
+        }
+      },
+      "about_image": {
+        "type": "Image",
+        "config": {
+          "constraint": {},
+          "thumbnails": [],
+          "label": "About Image"
+        }
+      }
+    },
+    "Testimonials": {
+      "testimonials_title": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "heading3",
+          "label": "Testimonials Title",
+          "placeholder": "Que ellos te lo cuenten"
+        }
+      },
+      "testimonials": {
+        "type": "Group",
+        "config": {
+          "fields": {
+            "logo": {
+              "type": "Image",
+              "config": {
+                "constraint": {},
+                "thumbnails": [],
+                "label": "Logo"
+              }
+            },
+            "client_name": {
+              "type": "Text",
+              "config": {
+                "label": "Client name",
+                "placeholder": "ArCcanto"
+              }
+            },
+            "client_title": {
+              "type": "StructuredText",
+              "config": {
+                "multi": "paragraph,strong,em",
+                "label": "Client title",
+                "placeholder": "Puesto o rol en la empresa"
+              }
+            },
+            "review": {
+              "type": "StructuredText",
+              "config": {
+                "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item",
+                "allowTargetBlank": true,
+                "label": "Review",
+                "placeholder": "Write your review here..."
+              }
+            }
+          },
+          "label": "Testimonials"
+        }
+      },
+      "body": {
+        "type": "Slices",
+        "fieldset": "Slice zone",
+        "config": {
+          "labels": {},
+          "choices": {}
+        }
+      }
+    },
+    "Contact": {
+      "contact_title": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "heading3",
+          "label": "Contact title"
+        }
+      },
+      "contact_image": {
+        "type": "Image",
+        "config": {
+          "constraint": {},
+          "thumbnails": [],
+          "label": "Contact image"
+        }
+      }
+    },
+    "SEO": {
+      "meta_title": {
+        "type": "Text",
+        "config": {
+          "label": "Meta Title",
+          "placeholder": "XiA Experience | + Prospectos"
+        }
+      },
+      "meta_description": {
+        "type": "Text",
+        "config": {
+          "label": "Meta Description",
+          "placeholder": "XiA Experience... una descripción para SEO."
+        }
+      },
+      "meta_thumbnail": {
+        "type": "Image",
+        "config": {
+          "constraint": {
+            "width": 512,
+            "height": 512
+          },
+          "thumbnails": [],
+          "label": "Meta Thumbnail"
+        }
+      }
+    }
+  },
+  "status": true,
+  "format": "custom"
+}

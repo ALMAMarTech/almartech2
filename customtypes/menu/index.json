@@ -1,0 +1,58 @@
+{
+  "id": "menu",
+  "label": "Menu",
+  "repeatable": false,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "Unique Identifier",
+          "placeholder": "menu"
+        }
+      },
+      "menu_links": {
+        "type": "Group",
+        "config": {
+          "fields": {
+            "label": {
+              "type": "Text",
+              "config": {
+                "label": "Label",
+                "placeholder": "Section name"
+              }
+            },
+            "section_link": {
+              "type": "Select",
+              "config": {
+                "options": [
+                  "Numeros",
+                  "Crecimiento",
+                  "Soluciones",
+                  "Partners",
+                  "Nosotros",
+                  "Testimonios",
+                  "Contacto"
+                ],
+                "label": "Section Link",
+                "placeholder": "Select Section"
+              }
+            },
+            "button": {
+              "type": "Boolean",
+              "config": {
+                "placeholder_false": "No",
+                "placeholder_true": "Yes",
+                "default_value": false,
+                "label": "Button"
+              }
+            }
+          },
+          "label": "Menu Links"
+        }
+      }
+    }
+  },
+  "status": true,
+  "format": "custom"
+}

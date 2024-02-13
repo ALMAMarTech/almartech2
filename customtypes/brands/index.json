@@ -1,0 +1,50 @@
+{
+  "id": "brands",
+  "label": "Brands",
+  "repeatable": false,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "uid"
+        }
+      },
+      "background_image": {
+        "type": "Image",
+        "config": {
+          "constraint": {},
+          "thumbnails": [],
+          "label": "background_image"
+        }
+      },
+      "title_main_brand": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading1,heading2",
+          "label": "title_main_brand"
+        }
+      },
+      "image_brand": {
+        "type": "Image",
+        "config": {
+          "constraint": {
+            "width": 700,
+            "height": 370
+          },
+          "thumbnails": [],
+          "label": "image_brand"
+        }
+      },
+      "text_test": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,preformatted,heading1,heading2,heading6,strong,em,hyperlink,image,embed,rtl",
+          "label": "text_test"
+        }
+      }
+    }
+  },
+  "status": true,
+  "format": "custom"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "amtweb",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "slicemachine": "start-slicemachine"
+  },
+  "dependencies": {
+    "@prismicio/client": "^5.2.0",
+    "@prismicio/vue": "^2.2.0",
+    "core-js": "^3.25.3",
+    "nuxt": "^2.15.8",
+    "prismic-dom": "^2.2.7",
+    "vue": "^2.7.10",
+    "vue-server-renderer": "^2.7.10",
+    "vue-template-compiler": "^2.7.10"
+  },
+  "devDependencies": {
+    "@nuxtjs/prismic": "^1.5.0",
+    "@slicemachine/adapter-nuxt2": "^0.3.35",
+    "slice-machine-ui": "^1.24.0"
+  }
+}

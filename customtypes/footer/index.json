@@ -1,0 +1,108 @@
+{
+  "id": "footer",
+  "label": "Footer",
+  "repeatable": false,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "Unique Identifier",
+          "placeholder": "footer"
+        }
+      },
+      "logo_subtitle": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph",
+          "label": "Logo Subtitle",
+          "placeholder": "Inbound Marketing Platform & Strategy Developers"
+        }
+      },
+      "legal_statement": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,strong,em,hyperlink,image,embed,list-item,o-list-item",
+          "allowTargetBlank": true,
+          "label": "Legal Statement",
+          "placeholder": "© XiA Experience 2021. Todos los derechos reservados."
+        }
+      }
+    },
+    "Sitemap": {
+      "sitemap_title": {
+        "type": "Text",
+        "config": {
+          "label": "Sitemap Title",
+          "placeholder": "SITEMAP"
+        }
+      },
+      "sitemap": {
+        "type": "Group",
+        "config": {
+          "fields": {
+            "label": {
+              "type": "Text",
+              "config": {
+                "label": "Label",
+                "placeholder": "Section Title"
+              }
+            },
+            "section_link": {
+              "type": "Select",
+              "config": {
+                "options": [
+                  "Inicio",
+                  "Numeros",
+                  "Crecimiento",
+                  "Soluciones",
+                  "Partners",
+                  "Nosotros",
+                  "Testimonios",
+                  "Contacto"
+                ],
+                "label": "Section Link",
+                "placeholder": "Select section"
+              }
+            }
+          },
+          "label": "Sitemap"
+        }
+      }
+    },
+    "Socials": {
+      "socials_title": {
+        "type": "Text",
+        "config": {
+          "label": "Socials Title",
+          "placeholder": "SOCIAL"
+        }
+      },
+      "socials": {
+        "type": "Group",
+        "config": {
+          "fields": {
+            "label": {
+              "type": "Text",
+              "config": {
+                "label": "Label",
+                "placeholder": "Social Media"
+              }
+            },
+            "link": {
+              "type": "Link",
+              "config": {
+                "allowTargetBlank": true,
+                "label": "Link",
+                "select": null
+              }
+            }
+          },
+          "label": "Socials"
+        }
+      }
+    }
+  },
+  "status": true,
+  "format": "custom"
+}

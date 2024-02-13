@@ -1,0 +1,22 @@
+[
+  {
+    "name": "prismic-preview",
+    "path": "/preview",
+    "component": "C:\\\\Users\\\\jedid\\\\WebstormProjects\\\\almartech\\\\.nuxt\\\\prismic\\\\pages\\\\preview.vue",
+    "_name": "_286896f7"
+  },
+  {
+    "name": "slice-simulator",
+    "path": "/slice-simulator",
+    "component": "C:\\\\Users\\\\jedid\\\\WebstormProjects\\\\almartech\\\\pages\\\\slice-simulator.vue",
+    "chunkName": "pages/slice-simulator",
+    "_name": "_6922432e"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\jedid\\\\WebstormProjects\\\\almartech\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_726fb392"
+  }
+]
